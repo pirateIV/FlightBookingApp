@@ -16,7 +16,7 @@ main {
 }
 
 /*   ============ HEADER ====================  */
-header {
+header.main-header {
   background-image: linear-gradient( rgba(0, 0, 0, 0.65), 30%,  rgba(0, 0, 0, 0.3)),
     url(../public/img/header.png);
   background-size: cover;
