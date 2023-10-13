@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flight B.</title>
+
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/classes.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main role="application" class="m-auto">
+      <header class="position-relative mt-4 rounded-4">
+        <nav class="nav navbar navbar-expand-xlg py-4 px-5">
+          <ul class="nav gap-5">
+            <li>
+              <img src="./public/icons/Vector.png" alt="" />
+              <a href="#" class="fw-medium small text-white">Find Flights</a>
+            </li>
+            <li>
+              <img src="./public/icons/Vector (1).png" alt="" />
+              <a href="#" class="fw-medium small text-white">Find Stays</a>
+            </li>
+          </ul>
+
+          <img
+            src="./public/icons/Logo.png"
+            class="navbar-brand"
+            alt="golobe -..." />
+
+          <ul>
+            <a href="#" class="me-5 text-white small">Login</a>
+            <a href="#" class="small btn fw-medium bg-white" role="button"
+              >Sign up</a
+            >
+          </ul>
+        </nav>
+
+        <section role="heading center ">
+          <div class="text-center mt-5 text-white">
+            <h3 class="display-5">Helping Others</h3>
+            <h1 class="display-1 fw-bold text-uppercase">Live & Travel</h1>
+
+            <p class="fw-medium">Special Offers to suit your plan</p>
+          </div>
+        </section>
+
+        <div
+          class="card p-4 positon-absolute shadow rounded-4 border-0 m-auto"
+          style="width: 85%">
+          <div class="tab-select nav gap-4">
+            <button
+              class="py-3 px-3 fw-medium border-0 bg-transparent border-bottom border-3 border-success">
+              <img
+                src="./public/icons/Vector (2).png"
+                class="me-1"
+                alt="flight" />
+              <span>Flights</span>
+            </button>
+            <span class="vr my-2"></span>
+            <button
+              class="py-3 px-3 fw-medium border-0 bg-transparent border-bottom border-3 =">
+              <img
+                src="./public/icons/Vector (4).png"
+                class="me-1"
+                alt="stays" />
+              <span>Stays</span>
+            </button>
+          </div>
+          <section>
+            <form class="row mt-3 gap-2">
+              <section
+                class="position-relative border border-dark rounded-2 d-flex align-items-center justify-content-center gap-4 col-4">
+                <legend>From - to</legend>
+                <div class="nav justify-content-between w-100">
+                  <div class="pt-3 pb-2">
+                    <span class="destination-from">Lahore</span>
+                    <span> - </span>
+                    <span class="destination-to">Karachi</span>
+                  </div>
+                  <img
+                    class="pt-3 pb-2"
+                    src="./public/icons/Vector (5).png"
+                    alt="" />
+                </div>
+              </section>
+              <div>
+                <legend>Trip</legend>
+                
+              </div>
+              <section
+                class="position-relative border border-dark rounded-2 d-flex align-items-center justify-content-center gap-4 col-4">
+                <legend>Depart - Return</legend>
+                <div class="nav justify-content-between w-100">
+                  <div class="pt-3 pb-2">
+                    <span class="destination-from">07 Nov 2023</span>
+                    <span> - </span>
+                    <span class="destination-to">13 Nov 2023</span>
+                  </div>
+                </div>
+              </section>
+              <section
+                class="position-relative border border-dark rounded-2 d-flex align-items-center justify-content-center gap-4 col-4">
+                <legend>Passenger - Class</legend>
+                <div class="nav justify-content-between w-100">
+                  <div class="pt-3 pb-2">
+                    <span class="destination-from">1 Passenger</span>
+                    <span> , </span>
+                    <span class="destination-to">Economy</span>
+                  </div>
+                </div>
+              </section>
+              <!-- <select class="col-1" name="flight-direction" id="flightDirection">
+                <legend>From - to</legend>
+                <option value="Lahore-Karachi"></option>
+              </select>
+              <select class="col-3" name="flight-direction" id="flightDirection">
+                <legend>From - to</legend>
+                <option value="Lahore-Karachi"></option>
+              </select>
+              <select class="col-3" name="flight-direction" id="flightDirection">
+                <legend>From - to</legend>
+                <option value="Lahore-Karachi"></option>
+              </select> -->
+            </form>
+
+            <div class="form-field d-flex align-items-center mt-3">
+              <div class="input-group">
+                <div class="input-group my-3">
+                  <input
+                    type="text"
+                    class="form-control py-2 border-0"
+                    aria-label="promo-code" />
+                  <button
+                    class="input-group-text border-0 small fw-medium bg-transparent"
+                    id="basic-addon1">
+                    + Add Promo Code
+                  </button>
+                  <button
+                    class="ms-3 w-auto border-0 p-2 btn-green rounded-1 small fw-bold">
+                    <img
+                      src="./public/icons/show-flight.png"
+                      class="me-2"
+                      alt="" />
+                    Show Flights
+                  </button>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </header>
+    </main>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
