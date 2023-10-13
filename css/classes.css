@@ -2,11 +2,8 @@
   --green-1: hsl(159, 53%, 62%);
   --green-2: hsl(159, 57%, 69%);
   --light-green: hsl(159, 44%, 69%);
-  --light-green-card: hsl(159, 44%, 69%, 0.6);
+  --light-green-card: hsl(159, 44%, 69%, 0.3);
 
-  --fw-100: 100;
-  --fw-200: 200;
-  --fw-300: 300;
   --fw-400: 400;
   --fw-500: 500;
   --fw-600: 600;
@@ -44,15 +41,6 @@
 }
 
 /* font weights */
-.fw-100 {
-  font-weight: var(--fw-100);
-}
-.fw-200 {
-  font-weight: var(--fw-200);
-}
-.fw-300 {
-  font-weight: var(--fw-300);
-}
 .fw-400 {
   font-weight: var(--fw-400);
 }

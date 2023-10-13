@@ -61,7 +61,7 @@ fieldset {
 .plan-trips {
   margin: 200px auto 0;
 }
-.plan-trips section#places {
+.plan-trips section#places, .plan-trips .review-cards {
   grid-template-columns: 31.7% 31.7% 31.7%;
 }
 .plan-trips aside {
