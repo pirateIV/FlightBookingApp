@@ -67,7 +67,7 @@ fieldset {
 .plan-trips .review-cards {
   gap: 40px !important;
   margin: auto;
-  overflow-x: scroll;
+  /* overflow-x: scroll; */
 }
 .plan-trips aside {
   background: url(../public/img/cards/card/flights.png),

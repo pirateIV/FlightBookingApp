@@ -29,22 +29,22 @@ export const reviewList = [
     company: `${maker} - Kai Tak`,
     imgPath: `${reviewsImgPath}review3.png`,
   },
-  {
-    heading: "A hidden gem in <br> the city, ",
-    comment:
-      "A perfect place for families. The amenities and activities for kids were fantastic. We had a great time!",
-    rating: 6,
-    name: "Eliot",
-    company: `${maker} - Kai Tak`,
-    imgPath: `${reviewsImgPath}review3.png`,
-  },
-  {
-    heading: "A hidden gem in <br> the city, ",
-    comment:
-      "A perfect place for families. The amenities and activities for kids were fantastic. We had a great time!",
-    rating: 6,
-    name: "Eliot",
-    company: `${maker} - Kai Tak`,
-    imgPath: `${reviewsImgPath}review3.png`,
-  },
+  // {
+  //   heading: "A hidden gem in <br> the city, ",
+  //   comment:
+  //     "A perfect place for families. The amenities and activities for kids were fantastic. We had a great time!",
+  //   rating: 6,
+  //   name: "Eliot",
+  //   company: `${maker} - Kai Tak`,
+  //   imgPath: `${reviewsImgPath}review3.png`,
+  // },
+  // {
+  //   heading: "A hidden gem in <br> the city, ",
+  //   comment:
+  //     "A perfect place for families. The amenities and activities for kids were fantastic. We had a great time!",
+  //   rating: 6,
+  //   name: "Eliot",
+  //   company: `${maker} - Kai Tak`,
+  //   imgPath: `${reviewsImgPath}review3.png`,
+  // },
 ];
