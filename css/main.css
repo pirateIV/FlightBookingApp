@@ -1,0 +1,63 @@
+
+
+
+
+section span {
+  font-size: 15px;
+}
+section span, legend {
+  font-weight: 500;
+}
+main {
+  width: 1290px;
+}
+
+/*   ============ HEADER ====================  */
+header.main-header {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.65), 30%,  rgba(0, 0, 0, 0.3)),
+    url(../public/img/header.png);
+  background-size: cover;
+  height: 580px;
+}
+header .card {
+  bottom: -70px;
+}
+header .card .tab-select button {
+  border-width: 2px;
+}
+
+/*   ============  FORM ====================  */
+form section {
+  padding: 0 15px;
+  border: 1px solid rgba(0, 0, 0, .45) !important;
+}
+form section:nth-child(2) {
+  flex-grow: 0.5  ;
+  padding: 0;
+  border: 0  !important;
+}
+form section:nth-child(2) select {
+  border: 1px solid rgba(0, 0, 0, .45) !important;
+}
+legend {
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 0;
+  padding: 0 10px;
+  width: auto;
+  position: absolute;
+  top: -10px;
+  background-color: white;
+  left: 20px;
+}
+fieldset {
+  padding: 10px;
+}
+
+/*   ============ PLAN TRIPS ====================  */
+.plan-trips {
+  margin: 200px auto 0;
+}
+.plan-trips section#places  {
+  grid-template-columns: 31.7% 31.7% 31.7%;
+}

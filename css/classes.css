@@ -1,6 +1,8 @@
 :root {
   --green-1: #69d1ac;
-  --green-2: #84ddbe
+  --green-2: #84ddbe;
+
+  --transition: 0.3s ease;
 }
 
 .center {
@@ -9,4 +11,14 @@
 .btn-green {
   background: var(--green-1);
   border-style: var(--green-2);
+}
+.btn-outline-green {
+  color: #000;
+  font-size: 15px;
+  transition: var(--transition);
+  border: 1px solid var(--green-2);
+}
+.btn-outline-green:hover {
+  color: white !important;
+  background: var(--green-1);
 }

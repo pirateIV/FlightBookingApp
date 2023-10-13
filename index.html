@@ -8,7 +8,7 @@
     <link
       rel="stylesheet"
       href="./node_modules/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/classes.css" />
+    <!-- <link rel="stylesheet" href="css/classes.css" /> -->
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -132,7 +132,7 @@
                     + Add Promo Code
                   </button>
                   <button
-                    class="ms-3 w-auto border-0 p-2 btn-green rounded-1 small fw-bold">
+                    class="ms-3 w-auto border-0 p-2 btn-green btn- rounded-1 small fw-bold">
                     <img
                       src="./public/img/icons/show-flight.png"
                       class="me-2"
@@ -147,16 +147,23 @@
       </header>
 
       <!-- ==================== PLAN TRIPS ======================== -->
-      <div class="plan-trips" style="width: 90%;">
-        <section class="places">
-          <header class="content-header">
-            <h1 role="heading" class="display-6 fw-bold">Plan your perfect trip</h1>
-            <p class="lead fw-medium text-muted">Search Flights & Places Hire to our most popular destinations</p>
-
-            <section class="card-places" id="places">
-              
-            </section>
+      <div class="plan-trips" style="width: 90%">
+        <section class="places w-100">
+          <header class="content-header nav align-items-center justify-content-between mb-5">
+            <div>
+              <h1 role="heading" class="display-6 fw-bold">
+                Plan your perfect trip
+              </h1>
+              <p class="lead fw-medium text-muted">
+                Search Flights & Places Hire to our most popular destinations
+              </p>
+            </div>
+            <button class="btn-outline-green p-2 rounded-2 fw-medium">See more places</button>
           </header>
+
+          <section
+            class="card-places d-grid justify-content-between align-items-center gap-1"
+            id="places"></section>
         </section>
       </div>
     </main>

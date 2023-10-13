@@ -1,9 +1,9 @@
 const details = "Flights · Hotels · Resorts";
 const imgPath = "./public/img/cards/";
 const hotelImagesPath = "./public/img/hotels";
-const places = [
-  (Instanbul = {
-    img: "istanbul.png",
+export const places = [
+  {
+    img: imgPath + "istanbul.png",
     place: "Istanbul",
     country: "Turkey",
     placeDetails:
@@ -43,6 +43,7 @@ const places = [
         address:
           "Levazim Mahallesi, Visnezade Mah. Acisu Sok. No:19, Beşiktaş, Istanbul, Turkey",
         images: hotelImagesPath + "",
+        link: "raffles.com/istanbul/",
       },
       {
         name: "Shangri-La Bosphorus, Istanbul",
@@ -62,6 +63,7 @@ const places = [
         address:
           "Sinanpasa Mah. Hayrettin Iskelesi Sok. No. 1, Beşiktaş, Istanbul, Turkey",
         images: hotelImagesPath + "",
+        link: "shangri-la.com/istanbul/shangrila/",
       },
       {
         name: "The Ritz-Carlton, Istanbul",
@@ -81,6 +83,7 @@ const places = [
         address:
           "Suzer Plaza, Askerocagi Caddesi No: 15, Sisli, Istanbul, Turkey",
         images: hotelImagesPath + "",
+        link: "ritzcarlton.com/istanbul",
       },
       {
         name: "InterContinental Istanbul",
@@ -100,6 +103,7 @@ const places = [
         address:
           "Tahsin Duru Sk. No: 2, 34437 Taksim, Beyoğlu, Istanbul, Turkey",
         images: hotelImagesPath + "",
+        link: "ihg.com/intercontinental/hotels/us/en/istanbul/istha/hoteldetail",
       },
       {
         name: "Legacy Ottoman Hotel",
@@ -174,59 +178,58 @@ const places = [
         link: "surahotels.com",
       },
     ],
-  }),
+  },
   {
-    img: "sydney.png",
+    img: imgPath + "sydney.png",
     place: "Sydney",
     country: "Australia",
     placeDetails:
       "Sydney is famous for its iconic landmarks such as the Sydney Opera House and the Sydney Harbour Bridge. Tourists often visit Bondi Beach, Taronga Zoo, and the Royal Botanic Garden.",
   },
-  // Add more places below
   {
-    img: "baku.png",
+    img: imgPath + "baiku.png",
     place: "Baku",
     country: "Azerbaijan",
     placeDetails:
       "Baku is renowned for its blend of modern architecture and historic buildings, along with its rich cultural heritage. Key attractions include the Flame Towers, the Old City (Icherisheher), Heydar Aliyev Center, and the Baku Boulevard.",
   },
   {
-    img: "male.png",
+    img: imgPath + "malè.png",
     place: "Malé",
     country: "Maldives",
     placeDetails:
       "Malé is the vibrant capital of the Maldives, known for its beautiful beaches, clear waters, and vibrant underwater life. Tourists often enjoy water activities such as snorkeling, diving, and exploring the local markets and restaurants.",
   },
   {
-    img: "paris.png",
+    img: imgPath + "paris.png",
     place: "Paris",
     country: "France",
     placeDetails:
       "Paris is celebrated for its romantic ambiance, art, fashion, and exquisite cuisine. Iconic attractions include the Eiffel Tower, Louvre Museum, Notre-Dame Cathedral, and the Champs-Élysées.",
   },
   {
-    img: "new  york.png",
+    img: imgPath + "new york.png",
     place: "New York",
     country: "USA",
     placeDetails:
       "New York is a bustling metropolis renowned for its diverse culture, iconic skyline, and world-class entertainment. Popular attractions include Times Square, Central Park, Statue of Liberty, and the Metropolitan Museum of Art.",
   },
   {
-    img: "london.png",
+    img: imgPath + "london.png",
     place: "London",
     country: "UK",
     placeDetails:
       "London is famous for its historical landmarks, royal palaces, museums, and thriving theater scene. Must-visit sites include the Tower of London, Buckingham Palace, the British Museum, and the London Eye.",
   },
   {
-    img: "tokyo.png",
+    img: imgPath + "tokyo.png",
     place: "Tokyo",
     country: "Japan",
     placeDetails:
       "Tokyo is a dynamic city known for its modern technology, traditional culture, and delicious cuisine. Popular attractions include the Tokyo Skytree, Senso-ji Temple, Meiji Shrine, and the bustling Shibuya Crossing.",
   },
   {
-    img: "dubai.png",
+    img: imgPath + "dubai.png",
     place: "Dubai",
     country: "UAE",
     placeDetails:
