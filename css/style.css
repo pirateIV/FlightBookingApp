@@ -1,6 +1,7 @@
 /* make your own css override bootstraps' */
 /* @import url(../node_modules/bootstrap/dist/css/bootstrap.min.css); */
 
+/* css imports */
 @import url(./main.css);
 @import url(./classes.css);
 
