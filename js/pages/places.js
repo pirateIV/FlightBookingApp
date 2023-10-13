@@ -1,6 +1,7 @@
 const details = "Flights · Hotels · Resorts";
 const imgPath = "./public/img/cards/";
-const hotelImagesPath = "./public/img/hotels";
+const hotelImagesPath = "./public/img/hotels/";
+const bookingImgPath = "./public/img/cards/card/"
 
 export const places = [
   {
@@ -238,15 +239,15 @@ export const places = [
   },
 ];
 
-export const detailsAndReview = [
+export const bookings = [
   {
-    backgroundPath: '',
+    backgroundPath: bookingImgPath + 'flights.png',
     heading: 'Flights',
     about: 'Search Flights & Places Hire to our most popular destinations',
-    buttonMessage: 'Show Flight',
+    buttonMessage: 'Show Flights',
   },
   {
-    backgroundPath: '',
+    backgroundPath: bookingImgPath + 'hotels.png',
     heading: 'Hotels',
     about: 'Search Flights & Places Hire to our most popular destinations',
     buttonMessage: 'Show Hotels',

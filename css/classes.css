@@ -12,6 +12,7 @@
 .btn-green {
   background: var(--green-1);
   border-style: var(--green-2);
+  cursor: pointer;
 }
 .btn-l-green {
   background-color: var(--light-green);
@@ -25,4 +26,7 @@
 .btn-outline-green:hover {
   color: white !important;
   background: var(--green-1);
+}
+.card1 {
+
 }

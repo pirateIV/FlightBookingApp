@@ -1,8 +1,9 @@
-import { places, detailsAndReview } from "./pages/places.js";
+import { places, bookings } from "./pages/places.js";
 
 (function App() {
+  const placesHTML = document.getElementById("places");
+  const bookingDetails = document.getElementById("bookingTravels");
   const viewPlacesDetails = () => {
-    const placesHTML = document.getElementById("places");
     places.forEach((place, idx) => {
       placesHTML.innerHTML += `
       <div class="card place place-famous rounded-4 border-0 shadow mb-3 p-3">
@@ -20,6 +21,24 @@ import { places, detailsAndReview } from "./pages/places.js";
       </div>
     `;
     });
+
+    bookings.forEach((content, idx) => {
+      bookingDetails.innerHTML += `
+        <aside class="cards rounded-4 pb-4">
+            <div
+              class="hotels-card-content d-flex flex-column justify-content-end h-100 align-items-center">
+              <h2 class="text-white">${content.heading}</h2>
+              <p class="text-white w-75 m-auto mb-3 mt-0">
+                ${content.about}
+              </p>
+              <a class="ms-3 w-auto border-0 p-3 btn-green rounded-1 small fw-medium text-dark">
+                <img src="./public/img/icons/show-flight.png" class="me-1" alt=""> ${content.buttonMessage}
+               </a>
+            </div>
+        </aside>
+      `;
+    });
+    console.log(idx);
   };
 
   viewPlacesDetails();

@@ -12,3 +12,14 @@
 body {
   background-color: #fafbfc;
 }
+
+aside {
+  background: url(../public/img/cards/card/flights.png), linear-gradient(transparent, rgba(0, 0, 0, 0.6));
+  background-blend-mode: darken;
+  background-position: center;
+  width: 90%;
+}
+
+aside:last-of-type {
+  background-image: url(../public/img/cards/card/hotels.png), linear-gradient(transparent, rgba(0, 0, 0, 0.6));
+}
