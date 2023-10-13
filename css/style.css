@@ -12,10 +12,10 @@ section span, legend {
   font-weight: 500;
 }
 main {
-  /* max-width: 1290px; */
-  /* width: 90%; */
   width: 1290px;
 }
+
+/*   ============ HEADER ====================  */
 header {
   background-image: linear-gradient( rgba(0, 0, 0, 0.65), 30%,  rgba(0, 0, 0, 0.3)),
     url(../public/img/header.png);
@@ -27,6 +27,20 @@ header .card {
 }
 header .card .tab-select button {
   border-width: 2px;
+}
+
+/*   ============  FORM ====================  */
+form section {
+  padding: 0 15px;
+  border: 1px solid rgba(0, 0, 0, .45) !important;
+}
+form section:nth-child(2) {
+  flex-grow: 0.5  ;
+  padding: 0;
+  border: 0  !important;
+}
+form section:nth-child(2) select {
+  border: 1px solid rgba(0, 0, 0, .45) !important;
 }
 legend {
   font-size: 14px;
@@ -42,15 +56,8 @@ legend {
 fieldset {
   padding: 10px;
 }
-form section {
-  padding: 0 15px;
-  border: 1px solid rgba(0, 0, 0, .45) !important;
-}
-form section:nth-child(2) {
-  flex-grow: 0.5  ;
-  padding: 0;
-  border: 0  !important;
-}
-form section:nth-child(2) select {
-  border: 1px solid rgba(0, 0, 0, .45) !important;
+
+/*   ============ PLAN TRIPS ====================  */
+.plan-trips {
+  margin: 200px auto 0;
 }
