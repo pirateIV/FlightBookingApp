@@ -1,9 +1,10 @@
-import { places } from "./pages/places.js";
+import { places, detailsAndReview } from "./pages/places.js";
 
-(function App(params) {
-  const placesHTML = document.getElementById("places");
-  places.forEach((place, idx) => {
-    placesHTML.innerHTML += `
+(function App() {
+  const viewPlacesDetails = () => {
+    const placesHTML = document.getElementById("places");
+    places.forEach((place, idx) => {
+      placesHTML.innerHTML += `
       <div class="card place place-famous rounded-4 border-0 shadow mb-3 p-3">
         <div class="d-flex g-0 align-items-center">
           <div>
@@ -18,5 +19,8 @@ import { places } from "./pages/places.js";
         </div>
       </div>
     `;
-  });
+    });
+  };
+
+  viewPlacesDetails();
 })();

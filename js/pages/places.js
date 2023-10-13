@@ -1,6 +1,7 @@
 const details = "Flights · Hotels · Resorts";
 const imgPath = "./public/img/cards/";
 const hotelImagesPath = "./public/img/hotels";
+
 export const places = [
   {
     img: imgPath + "istanbul.png",
@@ -236,3 +237,18 @@ export const places = [
       "Dubai is recognized for its futuristic architecture, luxury shopping, and lively nightlife scene. Key attractions include the Burj Khalifa, Dubai Mall, Palm Jumeirah, and the traditional Gold and Spice Souks.",
   },
 ];
+
+export const detailsAndReview = [
+  {
+    backgroundPath: '',
+    heading: 'Flights',
+    about: 'Search Flights & Places Hire to our most popular destinations',
+    buttonMessage: 'Show Flight',
+  },
+  {
+    backgroundPath: '',
+    heading: 'Hotels',
+    about: 'Search Flights & Places Hire to our most popular destinations',
+    buttonMessage: 'Show Hotels',
+  },
+]

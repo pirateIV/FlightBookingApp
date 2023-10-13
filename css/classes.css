@@ -1,6 +1,7 @@
 :root {
-  --green-1: #69d1ac;
-  --green-2: #84ddbe;
+  --green-1: hsl(159, 53%, 62%);
+  --green-2: hsl(159, 57%, 69%);
+  --light-green: hsl(159, 44%, 69%);
 
   --transition: 0.3s ease;
 }
@@ -11,6 +12,9 @@
 .btn-green {
   background: var(--green-1);
   border-style: var(--green-2);
+}
+.btn-l-green {
+  background-color: var(--light-green);
 }
 .btn-outline-green {
   color: #000;
