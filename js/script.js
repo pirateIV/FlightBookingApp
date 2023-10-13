@@ -1,4 +1,4 @@
-import setPlaces from "./pages/places/places2.js";
+import setPlaces from "./pages/places/places.js";
 
 (function App() {
   setPlaces();

@@ -77,10 +77,10 @@ fieldset {
     linear-gradient(transparent, rgba(0, 0, 0, 0.75));
 }
 .plan-trips .review-card {
-  box-shadow: 17px 14px 1px 2px var(--light-green-card),
-
-    0px 2px 6px 2px rgb(211, 211, 211, 0.2),
-    0px 2px 6px 2px rgb(211, 211, 211, 0.2),
-    0px 2px 6px 2px rgb(211, 211, 211, 0.2);  
+  box-shadow:
+    0px 1px 5px 1px rgba(211, 211, 211, 0.3),
+    0px 1px 5px 1px rgba(211, 211, 211, 0.3),
+    0px 1px 5px 1px rgba(211, 211, 211, 0.3),
+    19px 19px 1px 2px var(--light-green-card);
   margin-bottom: 100px;
 }

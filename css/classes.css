@@ -2,7 +2,7 @@
   --green-1: hsl(159, 53%, 62%);
   --green-2: hsl(159, 57%, 69%);
   --light-green: hsl(159, 44%, 69%);
-  --light-green-card: hsl(159, 44%, 69%, 0.3);
+  --light-green-card: hsl(161, 42%, 86%);
 
   --fw-400: 400;
   --fw-500: 500;
@@ -18,10 +18,19 @@
 .center {
   text-align: center;
 }
-.btn-green {
+.btn-green, .btn-green-1 {
   background: var(--green-1);
-  border-style: var(--green-2);
+  border: 1px solid var(--green-2);
+  transition: var(--transition);
   cursor: pointer;
+}
+.btn-green:hover {
+  border: 1px solid green;
+  color: green !important;
+  background-color: transparent !important;
+}
+.btn-green-1:hover {
+  opacity: 0.7;
 }
 .btn-l-green {
   background-color: var(--light-green);
