@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -50,7 +50,7 @@
 
         <div
           class="card p-4 positon-absolute shadow rounded-4 border-0 m-auto"
-          style="width: 85%">
+          style="width: 90%">
           <div class="tab-select nav gap-4">
             <button
               class="py-3 px-3 fw-medium border-0 bg-transparent border-bottom border-3 border-success">
@@ -62,7 +62,7 @@
             </button>
             <span class="vr my-2"></span>
             <button
-              class="py-3 px-3 fw-medium border-0 bg-transparent border-bottom border-3 =">
+              class="py-3 px-3 fw-medium border-0 bg-transparent border-bottom border-3">
               <img
                 src="./public/icons/Vector (4).png"
                 class="me-1"
@@ -71,9 +71,9 @@
             </button>
           </div>
           <section>
-            <form class="row mt-3 gap-2">
+            <form class="nav justify-content-between gap-3 mt-4">
               <section
-                class="position-relative border border-dark rounded-2 d-flex align-items-center justify-content-center gap-4 col-4">
+                class="position-relative rounded-2 d-flex align-items-center justify-content-center gap-4 flex-grow-1">
                 <legend>From - to</legend>
                 <div class="nav justify-content-between w-100">
                   <div class="pt-3 pb-2">
@@ -87,44 +87,35 @@
                     alt="" />
                 </div>
               </section>
-              <div>
+              <section class="position-relative col-1">
                 <legend>Trip</legend>
-                
-              </div>
+                <select name="" id="" class="h-100 w-100 rounded-2 border px-3">
+                  <option value=""><span>Return</span></option>
+                  <option value=""><span>Departure</span></option>
+                </select>
+              </section>
               <section
-                class="position-relative border border-dark rounded-2 d-flex align-items-center justify-content-center gap-4 col-4">
+                class="position-relative rounded-2 d-flex align-items-center justify-content-center gap-4 flex-grow-1">
                 <legend>Depart - Return</legend>
                 <div class="nav justify-content-between w-100">
                   <div class="pt-3 pb-2">
-                    <span class="destination-from">07 Nov 2023</span>
+                    <span class="departure-date">07 Nov 2023</span>
                     <span> - </span>
-                    <span class="destination-to">13 Nov 2023</span>
+                    <span class="arrival-date">13 Nov 2023</span>
                   </div>
                 </div>
               </section>
               <section
-                class="position-relative border border-dark rounded-2 d-flex align-items-center justify-content-center gap-4 col-4">
+                class="position-relative rounded-2 d-flex align-items-center justify-content-center gap-4 flex-grow-1">
                 <legend>Passenger - Class</legend>
                 <div class="nav justify-content-between w-100">
                   <div class="pt-3 pb-2">
-                    <span class="destination-from">1 Passenger</span>
-                    <span> , </span>
-                    <span class="destination-to">Economy</span>
+                    <span class="passenger-count">1 Passenger</span>
+                    <span>, </span>
+                    <span class="flight-type">Economy</span>
                   </div>
                 </div>
               </section>
-              <!-- <select class="col-1" name="flight-direction" id="flightDirection">
-                <legend>From - to</legend>
-                <option value="Lahore-Karachi"></option>
-              </select>
-              <select class="col-3" name="flight-direction" id="flightDirection">
-                <legend>From - to</legend>
-                <option value="Lahore-Karachi"></option>
-              </select>
-              <select class="col-3" name="flight-direction" id="flightDirection">
-                <legend>From - to</legend>
-                <option value="Lahore-Karachi"></option>
-              </select> -->
             </form>
 
             <div class="form-field d-flex align-items-center mt-3">
@@ -155,6 +146,6 @@
       </header>
     </main>
 
-    <script src="js/script.js"></script>
+    <script type="module" src="js/script.js"></script>
   </body>
 </html>

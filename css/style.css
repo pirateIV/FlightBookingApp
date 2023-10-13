@@ -5,13 +5,16 @@
 body {
   background-color: #fafbfc;
 }
+section span {
+  font-size: 15px;
+}
 section span, legend {
   font-weight: 500;
 }
 main {
   /* max-width: 1290px; */
   /* width: 90%; */
-  width: 1200px;
+  width: 1290px;
 }
 header {
   background-image: linear-gradient( rgba(0, 0, 0, 0.65), 30%,  rgba(0, 0, 0, 0.3)),
@@ -38,4 +41,16 @@ legend {
 }
 fieldset {
   padding: 10px;
+}
+form section {
+  padding: 0 15px;
+  border: 1px solid rgba(0, 0, 0, .45) !important;
+}
+form section:nth-child(2) {
+  flex-grow: 0.5  ;
+  padding: 0;
+  border: 0  !important;
+}
+form section:nth-child(2) select {
+  border: 1px solid rgba(0, 0, 0, .45) !important;
 }

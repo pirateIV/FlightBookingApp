@@ -1,7 +1,12 @@
+:root {
+  --green-1: #69d1ac;
+  --green-2: #84ddbe
+}
+
 .center {
   text-align: center;
 }
 .btn-green {
-  background: #69d1ac;
-  border-style: #84ddbe;
+  background: var(--green-1);
+  border-style: var(--green-2);
 }
