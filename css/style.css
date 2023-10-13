@@ -10,7 +10,7 @@
   text-decoration: none !important;
 }
 body {
-  background-color: ;
+  background-color: var(--body);
 }
 main {
   width: 1290px;
