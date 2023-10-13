@@ -1,10 +1,13 @@
 :root {
+  --card-bgcolor: #cdeae1;
+
   --green-1: hsl(159, 53%, 62%);
   --green-2: hsl(159, 57%, 69%);
   --light-green: hsl(159, 44%, 69%);
   --light-green-card: hsl(161, 42%, 86%);
 
-  --fw-400: 400;
+  --body: #fafbfc;
+
   --fw-500: 500;
   --fw-600: 600;
   --fw-700: 700;
@@ -12,13 +15,15 @@
   --fw-900: 900;
 
   --text-gray: gray;
+
   --transition: 0.3s ease;
 }
 
 .center {
   text-align: center;
 }
-.btn-green, .btn-green-1 {
+.btn-green,
+.btn-green-1 {
   background: var(--green-1);
   border: 1px solid var(--green-2);
   transition: var(--transition);
@@ -50,9 +55,6 @@
 }
 
 /* font weights */
-.fw-400 {
-  font-weight: var(--fw-400);
-}
 .fw-500 {
   font-weight: var(--fw-500);
 }

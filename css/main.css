@@ -1,9 +1,5 @@
 @import url(./classes.css);
 
-main {
-  width: 1290px;
-}
-
 /*   ============ HEADER ====================  */
 header.main-header {
   background-image: linear-gradient(
@@ -87,4 +83,12 @@ fieldset {
     0px 1px 5px 1px rgba(211, 211, 211, 0.3),
     19px 19px 1px 2px var(--light-green-card);
   margin-bottom: 100px;
+}
+
+/*   ============ FOOTER ====================  */
+footer {
+  background-color: var(--green-1)
+}
+footer .card-mailbox {
+  background-color: var(--card-bgcolor);
 }

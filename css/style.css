@@ -5,11 +5,13 @@
 @import url(./main.css);
 @import url(./classes.css);
 
-
 * {
   font-family: "Montserrat";
   text-decoration: none !important;
 }
 body {
-  background-color: #fafbfc;
+  background-color: ;
+}
+main {
+  width: 1290px;
 }

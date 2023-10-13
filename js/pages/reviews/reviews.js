@@ -6,8 +6,8 @@ export const reviews = () => {
 
   reviewList.forEach((review, idx) => {
     let stars = ''
-    for(let i =  0; i < review.rating; i++) {
-      stars += `<img src="./public/img/icons/star.png" width="15" alt="s"`
+    for(let i = 0; i < review.rating; i++) {
+      stars += `<img src="./public/img/icons/star.png" width="15" alt="s">`
     }    
     reviews.innerHTML += `
       <div class="review-card card border-0 rounded-4 p-4 d-flex flex-column justify-content-between justify-self-center">

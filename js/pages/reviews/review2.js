@@ -5,7 +5,7 @@ export const reviewList = [
   {
     heading: "A real sense of community, nurtured ",
     comment:
-      "Really appreciate the help and support from the staff during these tough times. Shoutout to Katie for",
+      "Really appreciate the help and support from the staff during these tough times. Shoutout to Katie for...",
     rating: 6,
     name: "Olga",
     company: `${maker} - Kai Tak`,
