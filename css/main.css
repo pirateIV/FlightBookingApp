@@ -1,3 +1,5 @@
+@import url(./classes.css);
+
 main {
   width: 1290px;
 }
@@ -61,4 +63,24 @@ fieldset {
 }
 .plan-trips section#places {
   grid-template-columns: 31.7% 31.7% 31.7%;
+}
+.plan-trips aside {
+  background: url(../public/img/cards/card/flights.png),
+    linear-gradient(transparent, rgba(0, 0, 0, 0.75));
+  background-blend-mode: darken;
+  background-position: center;
+  width: 90%;
+}
+
+.plan-trips aside:last-of-type {
+  background-image: url(../public/img/cards/card/hotels.png),
+    linear-gradient(transparent, rgba(0, 0, 0, 0.75));
+}
+.plan-trips .review-card {
+  box-shadow: 17px 14px 1px 2px var(--light-green-card),
+
+    0px 2px 6px 2px rgb(211, 211, 211, 0.2),
+    0px 2px 6px 2px rgb(211, 211, 211, 0.2),
+    0px 2px 6px 2px rgb(211, 211, 211, 0.2);  
+  margin-bottom: 100px;
 }

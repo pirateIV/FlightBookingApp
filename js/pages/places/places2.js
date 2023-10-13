@@ -35,7 +35,6 @@ export default function setPlaces() {
         </aside>
       `;
     });
-    console.log(idx);
   };
 
   viewPlacesDetails();

@@ -5,6 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flight B.</title>
 
+    <link
+      rel="preload"
+      as="style"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+      onload="this.onload=null;this.rel='stylesheet'" />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="./node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    </noscript>
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -28,11 +38,13 @@
             class="navbar-brand"
             alt="golobe -..." />
 
-          <ul>
-            <a href="#" class="me-5 text-white small">Login</a>
-            <a href="#" class="small btn fw-medium bg-white" role="button"
-              >Sign up</a
-            >
+          <ul class="nav align-items-center">
+            <li><a href="#" class="me-5 text-white small">Login</a></li>
+            <li>
+              <a href="#" class="small btn fw-medium bg-white" role="button"
+                >Sign up</a
+              >
+            </li>
           </ul>
         </nav>
 
@@ -81,7 +93,8 @@
                   <img
                     class="pt-3 pb-2"
                     src="./public/img/icons/Vector (5).png"
-                    alt="" />
+                    alt=""
+                    style="aspect-ratio: 0.82" />
                 </div>
               </section>
               <section class="position-relative col-1">
@@ -165,11 +178,62 @@
             class="card-places d-grid justify-content-between align-items-center mb-5 gap-1"
             id="places"></section>
           <section
-            class="d-flex justify-content-between gap-4 center"
+            class="d-flex justify-content-between gap-4 center mb-5"
             style="height: 500px"
-            id="bookingTravels">
+            id="bookingTravels"></section>
+          <!-- ==================== PLAN TRIPS - REVIEW cards ======================== -->
+          <section class="places w-100">
+            <header
+              class="content-header nav align-items-center justify-content-between mb-5 pt-5">
+              <div>
+                <h1 role="heading" class="display-6 fw-bold">Reviews</h1>
+                <p class="lead fw-medium">
+                  What people says about Golobe facilities
+                </p>
+              </div>
+              <button class="btn-outline-green p-2 rounded-2 fw-medium">
+                See All
+              </button>
+            </header>
+
+            <div class="review-cards row">
+              <div
+                class="review-card card border-0 rounded-4 p-4 col-3">
+                <div class="rev-heading nav align-items-center flex-column">
+                  <figcaption>
+                    <h2 class="fw-bold">
+                      <q> A real sense of community, nurtured </q>
+                    </h2>
+                  </figcaption>
+
+                  <p class="text-gray fw-medium">
+                    Really appreciate the help and support from the staff during
+                    these tough times. Shoutout to Katie for
+                  </p>
+                </div>
+                <button class="w-auto border-0 bg-transparent w-100 text-end fw-600">View More</button>
+                <div class="ratings mb-3">
+                  <img src="./public/img/icons/star.png" alt="s" class="star" />
+                  <img src="./public/img/icons/star.png" alt="s" class="star" />
+                  <img src="./public/img/icons/star.png" alt="s" class="star" />
+                  <img src="./public/img/icons/star.png" alt="s" class="star" />
+                  <img src="./public/img/icons/star.png" alt="s" class="star" />
+                  <img src="./public/img/icons/star.png" alt="s" class="star" />
+                </div>
+
+                <div class="about-user">
+                  <div class="rev-user-name fw-600">Olga</div>
+                  <small class="text-gray fw-500">Weave Studios - Kai Tak</small>
+                  <div class="user-comp mt-2">
+                    <img src="./public/img/icons/google_icon.png" alt="">
+                    <span class="fw-500 ms-1 text-gray">Google</span>
+                  </div>
+
+                  <img src="./public/img/cards/card/review1.png" style="width: 100% ;" alt="">
+                </div>
+              </div>
+            </div>
           </section>
-          <!-- ==================== PLAN TRIPS - PLACES cards ======================== -->
         </section>
       </div>
     </main>

@@ -2,7 +2,19 @@
   --green-1: hsl(159, 53%, 62%);
   --green-2: hsl(159, 57%, 69%);
   --light-green: hsl(159, 44%, 69%);
+  --light-green-card: hsl(159, 44%, 69%, 0.6);
 
+  --fw-100: 100;
+  --fw-200: 200;
+  --fw-300: 300;
+  --fw-400: 400;
+  --fw-500: 500;
+  --fw-600: 600;
+  --fw-700: 700;
+  --fw-800: 800;
+  --fw-900: 900;
+
+  --text-gray: gray;
   --transition: 0.3s ease;
 }
 
@@ -27,6 +39,35 @@
   color: white !important;
   background: var(--green-1);
 }
-.card1 {
+.text-gray {
+  color: var(--text-gray);
+}
 
+/* font weights */
+.fw-100 {
+  font-weight: var(--fw-100);
+}
+.fw-200 {
+  font-weight: var(--fw-200);
+}
+.fw-300 {
+  font-weight: var(--fw-300);
+}
+.fw-400 {
+  font-weight: var(--fw-400);
+}
+.fw-500 {
+  font-weight: var(--fw-500);
+}
+.fw-600 {
+  font-weight: var(--fw-600);
+}
+.fw-700 {
+  font-weight: var(--fw-700);
+}
+.fw-800 {
+  font-weight: var(--fw-800);
+}
+.fw-900 {
+  font-weight: var(--fw-900);
 }
