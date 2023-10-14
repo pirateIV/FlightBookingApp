@@ -21,7 +21,7 @@ section span {
   font-size: 15px;
 }
 section span,
-legend {
+label {
   font-weight: 500;
 }
 
@@ -38,7 +38,7 @@ form section:nth-child(2) {
 form section:nth-child(2) select {
   border: 1px solid rgba(0, 0, 0, 0.45) !important;
 }
-legend {
+label {
   font-size: 14px;
   line-height: 20px;
   margin-bottom: 0;
@@ -105,4 +105,7 @@ footer img {
 footer * {
   color: black;
   list-style: none;
+}
+footer input:focus {
+  box-shadow: 1px 1px 2px 1px #555;
 }

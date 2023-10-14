@@ -13,7 +13,7 @@ export default function setPlaces() {
           </div>
           <div>
             <div class="card-body py-2">
-              <h6 class="place-name fw-bold text-muted fs-6">${place.place}, ${place.country}</h6>
+              <h1 class="place-name fw-bold text-muted fs-6 h6">${place.place}, ${place.country}</h1>
               <small class="fw-medium m-0">Flights · Hotels · Resorts</small>
             </div>
           </div>

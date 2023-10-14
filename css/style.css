@@ -6,7 +6,8 @@
 @import url(./classes.css);
 
 * {
-  font-family: "Trade Gothic W02 Bold Cn 20";
+  font-family: "Roboto";
+  font-display: visible;
   text-decoration: none !important;
 }
 h1,
@@ -24,7 +25,7 @@ main {
   width: 1290px;
 }
 
-@font-face {
+/* @font-face {
   font-family: "Trade Gothic W02 Bold Cn 20";
   src: url("https://db.onlinewebfonts.com/t/578ebf91174f9ab5683a66c2609ab000.eot");
   src: url("https://db.onlinewebfonts.com/t/578ebf91174f9ab5683a66c2609ab000.eot?#iefix")
@@ -37,4 +38,4 @@ main {
       format("truetype"),
     url("https://db.onlinewebfonts.com/t/578ebf91174f9ab5683a66c2609ab000.svg#Trade Gothic W02 Bold Cn 20")
       format("svg");
-}
+} */

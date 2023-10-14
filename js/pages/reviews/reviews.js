@@ -13,7 +13,7 @@ export const reviews = () => {
       <div class="review-card card border-0 rounded-4 p-4 d-flex flex-column justify-content-between justify-self-center">
         <div class="rev-heading nav align-items-center flex-column">
           <figcaption>
-            <h5 class="fw-bold fs-5 mb-4 pb-1"><q>${review.heading}</q </h5>
+            <h1 class="fw-bold fs-5 mb-4 pb-1 h5"><q>${review.heading}</q </h1>
           </figcaption>
           <p class="text-gray fw-medium" style="font-size: 14px;">${review.comment}</p>
         </div>

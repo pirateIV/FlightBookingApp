@@ -4,18 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flight B.</title>
-
-    <link
-      rel="preload"
-      as="style"
-      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+      <meta name="description" content="Some idea of how the functionality of a flight booking app works">
+    <meta name="author" content="benjamin">
+    <link rel="preload" as="style" href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
       onload="this.onload=null;this.rel='stylesheet'" />
     <noscript>
-      <link
-        rel="stylesheet"
-        href="./node_modules/bootstrap/dist/css/bootstrap.min.css" />
+      <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css" />
     </noscript>
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <main role="application" class="m-auto">
@@ -33,17 +29,12 @@
             </li>
           </ul>
 
-          <img
-            src="./public/img/icons/Logo.png"
-            class="navbar-brand"
-            alt="golobe -..." />
+          <img src="./public/img/icons/Logo.png" class="navbar-brand" alt="golobe -..." />
 
           <ul class="nav align-items-center">
             <li><a href="#" class="me-5 text-white small">Login</a></li>
             <li>
-              <a href="#" class="small btn fw-medium bg-white" role="button"
-                >Sign up</a
-              >
+              <a href="#" class="small btn fw-medium bg-white" role="button">Sign up</a>
             </li>
           </ul>
         </nav>
@@ -57,25 +48,15 @@
           </div>
         </section>
 
-        <div
-          class="card p-4 positon-absolute shadow rounded-4 border-0 m-auto"
-          style="width: 90%">
+        <div class="card p-4 positon-absolute shadow rounded-4 border-0 m-auto" style="width: 90%">
           <div class="tab-select nav gap-4">
-            <button
-              class="py-3 px-3 fw-medium border-0 bg-transparent border-bottom border-3 border-success">
-              <img
-                src="./public/img/icons/Vector (2).png"
-                class="me-1"
-                alt="flight" />
+            <button class="py-3 px-3 fw-medium border-0 bg-transparent border-bottom border-3 border-success">
+              <img src="./public/img/icons/Vector (2).png" class="me-1" alt="flight" />
               <span>Flights</span>
             </button>
             <span class="vr my-2"></span>
-            <button
-              class="py-3 px-3 fw-medium border-0 bg-transparent border-bottom border-3">
-              <img
-                src="./public/img/icons/Vector (4).png"
-                class="me-1"
-                alt="stays" />
+            <button class="py-3 px-3 fw-medium border-0 bg-transparent border-bottom border-3">
+              <img src="./public/img/icons/Vector (4).png" class="me-1" alt="stays" />
               <span>Stays</span>
             </button>
           </div>
@@ -83,30 +64,26 @@
             <form class="nav justify-content-between gap-3 mt-4" role="form">
               <section
                 class="position-relative rounded-2 d-flex align-items-center justify-content-center gap-4 flex-grow-1">
-                <legend>From - to</legend>
-                <div class="nav justify-content-between w-100">
+                <label for="destination">From - to</label>
+                <div class="nav justify-content-between w-100" aria-labelledby="destination">
                   <div class="pt-3 pb-2">
                     <span class="destination-from">Lahore</span>
                     <span> - </span>
                     <span class="destination-to">Karachi</span>
                   </div>
-                  <img
-                    class="pt-3 pb-2"
-                    src="./public/img/icons/Vector (5).png"
-                    alt=""
-                    style="aspect-ratio: 0.82" />
+                  <img class="pt-3 pb-2" src="./public/img/icons/Vector (5).png" alt="destination"
+                     style="aspect-ratio: 0.82" />
                 </div>
               </section>
               <section class="position-relative col-1">
-                <legend>Trip</legend>
-                <select name="" id="" class="h-100 w-100 rounded-2 border px-3">
-                  <option value=""><span>Return</span></option>
-                  <option value=""><span>Departure</span></option>
+                <label for="tripDirection">Trip</label>
+                <select id="tripDirection" class="h-100 w-100 rounded-2 border px-3">
+                  <option value="return"><span>Return</span></option>
+                  <option value="depart"><span>Departure</span></option>
                 </select>
               </section>
-              <section
-                class="position-relative rounded-2 d-flex align-items-center justify-content-center gap-4 flex-grow-1">
-                <legend>Depart - Return</legend>
+              <section class="position-relative rounded-2 d-flex align-items-center justify-content-center gap-4 flex-grow-1">
+                <label>Depart - Return</label>
                 <div class="nav justify-content-between w-100">
                   <div class="pt-3 pb-2">
                     <span class="departure-date">07 Nov 2023</span>
@@ -115,9 +92,8 @@
                   </div>
                 </div>
               </section>
-              <section
-                class="position-relative rounded-2 d-flex align-items-center justify-content-center gap-4 flex-grow-1">
-                <legend>Passenger - Class</legend>
+              <section class="position-relative rounded-2 d-flex align-items-center justify-content-center gap-4 flex-grow-1">
+                <label>Passenger - Class</label>
                 <div class="nav justify-content-between w-100">
                   <div class="pt-3 pb-2">
                     <span class="passenger-count">1 Passenger</span>
@@ -131,21 +107,12 @@
             <div class="form-field d-flex align-items-center mt-3">
               <div class="input-group">
                 <div class="input-group my-3">
-                  <input
-                    type="text"
-                    class="form-control py-2 border-0"
-                    aria-label="promo-code" />
-                  <button
-                    class="input-group-text border-0 small fw-medium bg-transparent"
-                    id="basic-addon1">
+                  <input type="text" class="form-control py-2 border-0" aria-label="promo-code" />
+                  <button class="input-group-text border-0 small fw-medium bg-transparent" id="basic-addon1">
                     + Add Promo Code
                   </button>
-                  <button
-                    class="ms-3 w-auto p-2 btn-green btn- rounded-1 small fw-bold">
-                    <img
-                      src="./public/img/icons/show-flight.png"
-                      class="me-2"
-                      alt="" />
+                  <button class="ms-3 w-auto p-2 btn-green btn- rounded-1 small fw-bold">
+                    <img src="./public/img/icons/show-flight.png"  class="me-2" alt="flight" />
                     Show Flights
                   </button>
                 </div>
@@ -158,8 +125,7 @@
       <!-- ==================== PLAN TRIPS ======================== -->
       <div class="plan-trips" style="width: 90%">
         <section class="places w-100">
-          <header
-            class="content-header nav align-items-center justify-content-between mb-5">
+          <header class="content-header nav align-items-center justify-content-between mb-5">
             <div>
               <h1 role="heading" class="display-6 fw-bold">
                 Plan your perfect trip
@@ -203,6 +169,8 @@
         </section>
       </div>
     </main>
+
+    <!-- ======================== FOOTER =============================== -->
     <footer class="w-100 h-auto">
       <div class="card-mailbox card border-0 m-auto p-4 overflow-hidden rounded-4" style="width: 1150px">
         <div class="row">
@@ -211,14 +179,14 @@
               Subscribe <br />
               Newsletter
             </h1>
-            <h5 class="fw-600">The Travel</h5>
+            <h2 class="fw-600 h5">The Travel</h2>
             <p class="fw-500">
               Get Inspired! Receive travel discounts, tips and behind the scenes
               stories.
             </p>
 
             <form action="" class="d-flex gap-3 pt-2">
-              <input type="text" placeholder="Your email address"class="col-6 border-0 rounded-2 ps-3 py-3" />
+              <input type="text" placeholder="Your email address" class="col-6 border-0 rounded-2 ps-3 py-3 outline-none" />
               <button class="btn btn-dark px-3">Subscribe</button>
             </form>
           </div>
@@ -231,8 +199,8 @@
         </div>
       </div>
 
-      <div class="footer-links m-auto row place-items-center justify-content-between
-      " style="width: 1050px; margin: 0 auto;">
+      <!-- ======================== FOOTER Links =============================== -->
+      <div class="footer-links m-auto row place-items-center justify-content-betwee" style="width: 1050px; margin: 0 auto;">
         <div class="main col-2">
           <img src="./public/img/icons/Group.png" alt="">
 
@@ -245,39 +213,38 @@
         </div>
 
         <ul class="ft-destination col-2">
-          <h6 class="mb-3 fw-600">Our Destinations</h6>
+          <li><h1 class="mb-2 h6 fw-600">Our Destinations</h1></li>
           <li><a href="#">Canada</a></li>
           <li><a href="#">Alaska</a></li>
           <li><a href="#">France</a></li>
           <li><a href="#">Iceland</a></li>
         </ul>
         <ul class="ft-activities col-2">
-          <h6 class="mb-3 fw-600">Our Activities</h5>
+          <li><h1 class="mb-2 h6 fw-600">Our Activities</h1></li>
           <li><a href="#">Northen Lights</a></li>
           <li><a href="#">Cruising and Sailing</a></li>
           <li><a href="#">Multi-activies</a></li>
           <li><a href="#">Kayaing</a></li>
         </ul>
         <ul class="ft-blogs col-2">
-          <h6 class="mb-3 fw-600">Travel Blogs</h5>
+          <li><h1 class="mb-2 h6 fw-600">Travel Blogs</h1></li>
           <li><a href="#">Bali Travel Guide</a></li>
           <li><a href="#">Sri-Lanka Travel Guide</a></li>
           <li><a href="#">Peru Travel Guide</a></li>
           <li><a href="#">Iceland Travel Guide</a></li>
         </ul>
         <ul class="ft-aboutus col-2">
-          <h6 class="mb-3 fw-600">About us</h5>
+          <li><h1 class="mb-2 h6 fw-600">About us</h1></li>
           <li><a href="#">Our Story</a></li>
           <li><a href="#">Work with us</a></li>
         </ul>
         <ul class="ft-contact col-2">
-          <h6 class="mb-3 fw-600">Contact Us</h5>
+          <li><h1 class="mb-2 h6 fw-600">Contact Us</h1></li>
           <li><a href="#">Our Story</a></li>
           <li><a href="#">Work with us</a></li>
         </ul>
       </div>
     </footer>
-
     <script type="module" src="js/script.js"></script>
-  </body>
+ </body>
 </html>
