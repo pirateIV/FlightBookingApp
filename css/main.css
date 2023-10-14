@@ -65,18 +65,6 @@ fieldset {
   margin: auto;
   /* overflow-x: scroll; */
 }
-.plan-trips aside {
-  background: url(../public/img/cards/card/flights.png),
-    linear-gradient(transparent, rgba(0, 0, 0, 0.75));
-  background-blend-mode: darken;
-  background-position: center;
-  width: 90%;
-}
-
-.plan-trips aside:last-of-type {
-  background-image: url(../public/img/cards/card/hotels.png),
-    linear-gradient(transparent, rgba(0, 0, 0, 0.75));
-}
 .plan-trips .review-card {
   box-shadow: 0px 1px 5px 1px rgba(211, 211, 211, 0.3),
     0px 1px 5px 1px rgba(211, 211, 211, 0.3),
@@ -84,11 +72,37 @@ fieldset {
     19px 19px 1px 2px var(--light-green-card);
   margin-bottom: 100px;
 }
+.plan-trips aside {
+  background: url(../public/img/cards/card/flights.png),
+    linear-gradient(transparent, rgba(0, 0, 0, 0.75));
+  background-blend-mode: darken;
+  background-position: center;
+  width: 90%;
+}
+.plan-trips aside:last-of-type {
+  background-image: url(../public/img/cards/card/hotels.png),
+    linear-gradient(transparent, rgba(0, 0, 0, 0.75));
+}
 
 /*   ============ FOOTER ====================  */
 footer {
-  background-color: var(--green-1)
+  background-color: var(--green-1);
+  margin-top: 180px;
 }
 footer .card-mailbox {
   background-color: var(--card-bgcolor);
+  height: 280px;
+}
+footer .card-mailbox {
+  transform: translateY(-50%);
+}
+footer .footer-links {
+  transform: translateY(-30%);
+}
+footer img {
+  transform: translateX(-50px);
+}
+footer * {
+  color: black;
+  list-style: none;
 }

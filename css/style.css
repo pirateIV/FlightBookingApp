@@ -6,12 +6,35 @@
 @import url(./classes.css);
 
 * {
-  font-family: "Montserrat";
+  font-family: "Trade Gothic W02 Bold Cn 20";
   text-decoration: none !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat";
 }
 body {
   background-color: var(--body);
 }
 main {
   width: 1290px;
+}
+
+@font-face {
+  font-family: "Trade Gothic W02 Bold Cn 20";
+  src: url("https://db.onlinewebfonts.com/t/578ebf91174f9ab5683a66c2609ab000.eot");
+  src: url("https://db.onlinewebfonts.com/t/578ebf91174f9ab5683a66c2609ab000.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/578ebf91174f9ab5683a66c2609ab000.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/578ebf91174f9ab5683a66c2609ab000.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/578ebf91174f9ab5683a66c2609ab000.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/578ebf91174f9ab5683a66c2609ab000.svg#Trade Gothic W02 Bold Cn 20")
+      format("svg");
 }

@@ -21,7 +21,7 @@ export const reviewList = [
     imgPath: `${reviewsImgPath}review2.png`,
   },
   {
-    heading: "A hidden gem in <br> the city, ",
+    heading: "A hidden gem in the city, ",
     comment:
       "A perfect place for families. The amenities and activities for kids were fantastic. We had a great time!",
     rating: 6,
