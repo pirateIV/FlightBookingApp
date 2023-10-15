@@ -106,6 +106,9 @@ footer * {
   color: black;
   list-style: none;
 }
+footer input {
+  padding: 10px 8px !important;
+}
 footer input:focus {
   box-shadow: 1px 1px 2px 1px #555;
 }

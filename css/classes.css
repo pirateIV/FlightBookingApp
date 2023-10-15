@@ -50,9 +50,9 @@
   color: white !important;
   background: var(--green-1);
 }
-.text-gray {
+/* .text-gray {
   color: var(--text-gray);
-}
+} */
 
 /* font weights */
 .fw-500 {
