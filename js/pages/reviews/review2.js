@@ -17,7 +17,7 @@ export const reviewList = [
       "Had an amazing time here. The friendly staff and vibrant atmosphere made my stay memorable. Would definitely recommend!",
     rating: 6,
     name: "Thomas",
-    company: `${maker} - Olmpic`,
+    company: `${maker} - Olympic`,
     imgPath: `${reviewsImgPath}review2.png`,
   },
   {
