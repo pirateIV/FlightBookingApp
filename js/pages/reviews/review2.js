@@ -9,7 +9,7 @@ export const reviewList = [
     rating: 6,
     name: "Olga",
     company: `${maker} - Kai Tak`,
-    imgPath: `${reviewsImgPath}review1.png`,
+    imgPath: `${reviewsImgPath}review1.webp`,
   },
   {
     heading: "The facilities are superb. Clean, slick and bright. ",
@@ -18,7 +18,7 @@ export const reviewList = [
     rating: 6,
     name: "Thomas",
     company: `${maker} - Olympic`,
-    imgPath: `${reviewsImgPath}review2.png`,
+    imgPath: `${reviewsImgPath}review2.webp`,
   },
   {
     heading: "A hidden gem in the city, ",
@@ -27,7 +27,7 @@ export const reviewList = [
     rating: 6,
     name: "Eliot",
     company: `${maker} - Kai Tak`,
-    imgPath: `${reviewsImgPath}review3.png`,
+    imgPath: `${reviewsImgPath}review3.webp`,
   },
   // {
   //   heading: "A hidden gem in <br> the city, ",
@@ -36,6 +36,6 @@ export const reviewList = [
   //   rating: 6,
   //   name: "Eliot",
   //   company: `${maker} - Kai Tak`,
-  //   imgPath: `${reviewsImgPath}review3.png`,
+  //   imgPath: `${reviewsImgPath}review3.webp`,
   // },
 ];

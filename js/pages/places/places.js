@@ -29,7 +29,7 @@ export default function setPlaces() {
             <h2 class="text-white">${content.heading}</h2>
             <p class="text-white w-75 m-auto mb-3 mt-0">${content.about}</p>
             <a class="ms-3 w-auto p-3 btn-green-1 rounded-1 small fw-medium text-dark">
-              <img src="./public/img/icons/show-flight.png" class="me-1" alt=""> ${content.buttonMessage}
+              <img src="./public/img/icons/show-flight.webp" class="me-1" alt=""> ${content.buttonMessage}
              </a>
           </div>
         </aside>

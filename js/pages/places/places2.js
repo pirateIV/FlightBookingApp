@@ -5,7 +5,7 @@ const bookingImgPath = "../public/img/cards/card/"
 
 export const places = [
   {
-    img: imgPath + "istanbul.png",
+    img: imgPath + "istanbul.webp",
     place: "Istanbul",
     country: "Turkey",
     placeDetails:
@@ -182,56 +182,56 @@ export const places = [
     ],
   },
   {
-    img: imgPath + "sydney.png",
+    img: imgPath + "sydney.webp",
     place: "Sydney",
     country: "Australia",
     placeDetails:
       "Sydney is famous for its iconic landmarks such as the Sydney Opera House and the Sydney Harbour Bridge. Tourists often visit Bondi Beach, Taronga Zoo, and the Royal Botanic Garden.",
   },
   {
-    img: imgPath + "baiku.png",
+    img: imgPath + "baiku.webp",
     place: "Baku",
     country: "Azerbaijan",
     placeDetails:
       "Baku is renowned for its blend of modern architecture and historic buildings, along with its rich cultural heritage. Key attractions include the Flame Towers, the Old City (Icherisheher), Heydar Aliyev Center, and the Baku Boulevard.",
   },
   {
-    img: imgPath + "malè.png",
+    img: imgPath + "malè.webp",
     place: "Malé",
     country: "Maldives",
     placeDetails:
       "Malé is the vibrant capital of the Maldives, known for its beautiful beaches, clear waters, and vibrant underwater life. Tourists often enjoy water activities such as snorkeling, diving, and exploring the local markets and restaurants.",
   },
   {
-    img: imgPath + "paris.png",
+    img: imgPath + "paris.webp",
     place: "Paris",
     country: "France",
     placeDetails:
       "Paris is celebrated for its romantic ambiance, art, fashion, and exquisite cuisine. Iconic attractions include the Eiffel Tower, Louvre Museum, Notre-Dame Cathedral, and the Champs-Élysées.",
   },
   {
-    img: imgPath + "new york.png",
+    img: imgPath + "new york.webp",
     place: "New York",
     country: "USA",
     placeDetails:
       "New York is a bustling metropolis renowned for its diverse culture, iconic skyline, and world-class entertainment. Popular attractions include Times Square, Central Park, Statue of Liberty, and the Metropolitan Museum of Art.",
   },
   {
-    img: imgPath + "london.png",
+    img: imgPath + "london.webp",
     place: "London",
     country: "UK",
     placeDetails:
       "London is famous for its historical landmarks, royal palaces, museums, and thriving theater scene. Must-visit sites include the Tower of London, Buckingham Palace, the British Museum, and the London Eye.",
   },
   {
-    img: imgPath + "tokyo.png",
+    img: imgPath + "tokyo.webp",
     place: "Tokyo",
     country: "Japan",
     placeDetails:
       "Tokyo is a dynamic city known for its modern technology, traditional culture, and delicious cuisine. Popular attractions include the Tokyo Skytree, Senso-ji Temple, Meiji Shrine, and the bustling Shibuya Crossing.",
   },
   {
-    img: imgPath + "dubai.png",
+    img: imgPath + "dubai.webp",
     place: "Dubai",
     country: "UAE",
     placeDetails:
@@ -241,13 +241,13 @@ export const places = [
 
 export const bookings = [
   {
-    backgroundPath: bookingImgPath + 'flights.png',
+    backgroundPath: bookingImgPath + 'flights.webp',
     heading: 'Flights',
     about: 'Search Flights & Places Hire to our most popular destinations',
     buttonMessage: 'Show Flights',
   },
   {
-    backgroundPath: bookingImgPath + 'hotels.png',
+    backgroundPath: bookingImgPath + 'hotels.webp',
     heading: 'Hotels',
     about: 'Search Flights & Places Hire to our most popular destinations',
     buttonMessage: 'Show Hotels',

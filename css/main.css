@@ -7,7 +7,7 @@ header.main-header {
       30%,
       rgba(0, 0, 0, 0.3)
     ),
-    url(../public/img/header.png);
+    url(../public/img/header.webp);
   background-size: cover;
   height: 580px;
 }
@@ -73,14 +73,14 @@ fieldset {
   margin-bottom: 100px;
 }
 .plan-trips aside {
-  background: url(../public/img/cards/card/flights.png),
+  background: url(../public/img/cards/card/flights.webp),
     linear-gradient(transparent, rgba(0, 0, 0, 0.75));
   background-blend-mode: darken;
   background-position: center;
   width: 90%;
 }
 .plan-trips aside:last-of-type {
-  background-image: url(../public/img/cards/card/hotels.png),
+  background-image: url(../public/img/cards/card/hotels.webp),
     linear-gradient(transparent, rgba(0, 0, 0, 0.75));
 }
 

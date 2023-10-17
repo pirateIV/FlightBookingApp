@@ -22,7 +22,7 @@ body {
   background-color: var(--body);
 }
 main {
-  width: 1290px;
+  max-width: 1190px;
 }
 
 /* @font-face {

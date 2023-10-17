@@ -7,7 +7,7 @@ export const reviews = () => {
   reviewList.forEach((review, idx) => {
     let stars = ''
     for(let i = 0; i < review.rating; i++) {
-      stars += `<img src="./public/img/icons/star.png" width="15" alt="s">`
+      stars += `<img src="./public/img/icons/star.webp" width="15" alt="s">`
     }    
     reviews.innerHTML += `
       <div class="review-card card border-0 rounded-4 p-4 d-flex flex-column justify-content-between justify-self-center">
@@ -24,7 +24,7 @@ export const reviews = () => {
           <div class="rev-user-name fw-600">${review.name}</div>
           <small class="text-gray fw-500">${review.company}</small>
           <div class="user-comp mt-2 mb-4">
-            <img src="./public/img/icons/google_icon.png" alt="">
+            <img src="./public/img/icons/google_icon.webp" alt="">
             <span class="fw-500 ms-1 text-gray">Google</span>
           </div>
           <img src="${review.imgPath}" class="pb-0 rounded-3" style="width: 100% ;" alt="">
@@ -33,5 +33,5 @@ export const reviews = () => {
     `
   })
   
-  // <img src="./public/img/icons/star.png" width="15" alt="s" class="star" />
+  // <img src="./public/img/icons/star.webp" width="15" alt="s" class="star" />
 }
