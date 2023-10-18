@@ -24,7 +24,7 @@ export const reviews = () => {
           <div class="rev-user-name fw-600">${review.name}</div>
           <small class="text-gray fw-500">${review.company}</small>
           <div class="user-comp mt-2 mb-4">
-            <img src="./public/img/icons/google_icon.webp" alt="">
+            <img src="./public/img/icons/google_icon.png" alt="">
             <span class="fw-500 ms-1 text-gray">Google</span>
           </div>
           <img src="${review.imgPath}" class="pb-0 rounded-3" style="width: 100% ;" alt="">
