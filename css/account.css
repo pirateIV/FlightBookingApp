@@ -1,2 +1,20 @@
-@import url('./style.css');
+@import url('./classes.css');
 @import url('../node_modules/bootstrap/dist/css/bootstrap.min.css');
+
+
+* {
+  font-family: "Roboto";
+  font-display: visible;
+  text-decoration: none !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat";
+}
+body {
+  background-color: var(--body);
+}
