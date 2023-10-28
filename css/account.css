@@ -18,3 +18,7 @@ h6 {
 body {
   background-color: var(--body);
 }
+
+.content {
+  width: 83%;
+}
